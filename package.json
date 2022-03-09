@@ -1,0 +1,20 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "proyecto 1 para el portafolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMejiaL/proyecto1.git"
+  },
+  "keywords": [],
+  "author": "Marco Mejia Lopez <marcomejia159010@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcoMejiaL/proyecto1/issues"
+  },
+  "homepage": "https://github.com/MarcoMejiaL/proyecto1#readme"
+}
