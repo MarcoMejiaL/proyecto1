@@ -1,5 +1,6 @@
 @import url(./pages/header.css);
 @import url(./pages/about.css);
+@import url(./pages/portafolio.css);
 
 
 
@@ -41,6 +42,8 @@ body{
 }
 
 .rectangle2{
+    background-color: orange;
+    border: 1px solid bla;
     width: 300px;
     height: 320px;
 }
