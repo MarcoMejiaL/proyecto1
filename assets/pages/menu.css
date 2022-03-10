@@ -1,0 +1,26 @@
+.menu__content{
+    width: auto;
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.menu__base--desktop{
+    margin: 0 auto;
+    
+    border: 1px solid black;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu__base--desktop li{
+    list-style: none;
+    
+    margin-left: 40px;
+}
