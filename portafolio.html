@@ -9,11 +9,42 @@
 </head>
 <body>
     <section class="portafolio__content--mobile">
-        <div class="rectangle1"></div>
-        <div class="rectangle2"></div>
-        <div class="rectangle1"></div>
-        <div class="rectangle2"></div>
+       
     </section>
     
 </body>
+<script>
+    
+console.log('Happy hacking :)')
+
+const url = "https://picsum.photos/v2/list"
+const contenedor = document.querySelector('.portafolio__content--mobile')
+
+//api
+//conectar
+window.fetch(`${url}`).then((respuesta) => respuesta.json() )
+.then((respuestaJson)=>{
+    const todosLosItems =[]
+    respuestaJson.forEach((item)=>{
+        //crear imagen
+        const img = document.createElement('img');
+        img.src = `${item.download_url}`
+        //creat titulo 
+        
+       
+
+        const container = document.createElement('div')
+
+        container.append(img)
+        
+        todosLosItems.push(container)
+
+
+    })
+    
+    
+    contenedor.append(...todosLosItems)
+})
+
+</script>
 </html>
