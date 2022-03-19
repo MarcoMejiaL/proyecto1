@@ -1,0 +1,90 @@
+.header{
+    width: 100%;    
+    height: auto;
+    
+}
+
+.header__menu--desktop{   
+
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.header__container--desktop{
+    margin: 32px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+.header__name--desktop{
+    
+    padding: 12px;
+}
+.header__name--desktop h2{
+    padding: 12px;    
+    margin-bottom: 6px;
+    font-size: var(--lg);
+    color: --black;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.header__name--desktop span{
+    
+    padding: 12px;
+    font-size: var(--md);
+    letter-spacing: 4px;
+    
+}
+
+
+
+
+.header--mobile{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    max-width: 320px;
+    height: 611px;
+    
+    
+}
+.header__img--mobile{
+    background-image: url(../../assets/img/Hellbat.png); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    grid-column: 1/7;
+    grid-row: 1/7;
+}
+.header__tittle--mobile{
+    grid-column: 1/7;
+    grid-row: 4/5;
+    margin: 12px;
+    
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--black);
+    font-size: var(--lg);
+    
+}
+.header__rank--mobile{
+    grid-column: 3/7;
+    grid-row: 5/6;
+    height: 20px;    
+    color: var(--black);
+    font-size: var(--md);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2px;
+    margin-right: 4px;
+    
+
+}

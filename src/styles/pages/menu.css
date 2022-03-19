@@ -1,0 +1,40 @@
+.menu__content{
+    width: auto;
+    
+    padding: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.menu__base--desktop{
+    margin: 0 auto;
+    
+    
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu__base--desktop li{
+    list-style: none;
+    
+    margin-left: 40px;
+}
+.menu__base--desktop li a{
+    text-decoration: none;
+    color: var(--black);
+}
+.menu__base--desktop li a:hover{
+    color: var(--dark);
+    text-decoration: underline;
+}
+@media (max-width:400px) {
+    .menu__content{
+        display: none;
+    }
+    
+}

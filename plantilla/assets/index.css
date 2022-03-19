@@ -1,0 +1,39 @@
+@import url(./pages/header.css);
+@import url(./pages/about.css);
+@import url(./pages/portafolio.css);
+@import url(./pages/menu.css);
+@import url(./pages/blog.css);
+
+
+:root{
+    --white: #FFFFFF;
+    --black: #666;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --base-white: #ccc;
+    
+    --sm: 14px;
+    --md: 16px;
+    --lg: 24px
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    margin: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+.basic__frame{
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
