@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../containers/Layout';
 import Header from '../containers/Header';
 
-import '../styles/index.scss';
+import '../styles/index.css';
 
 const App = ()=>{
     return(

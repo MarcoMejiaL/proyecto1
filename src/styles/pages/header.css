@@ -1,4 +1,51 @@
-header{
+.header{
+    width: 100%;    
+    height: auto;
+    
+}
+
+.header__menu--desktop{   
+
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.header__container--desktop{
+    margin: 32px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+.header__name--desktop{
+    
+    padding: 12px;
+}
+.header__name--desktop h2{
+    padding: 12px;    
+    margin-bottom: 6px;
+    font-size: var(--lg);
+    color: --black;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.header__name--desktop span{
+    
+    padding: 12px;
+    font-size: var(--md);
+    letter-spacing: 4px;
+    
+}
+
+
+
+
+.header--mobile{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
