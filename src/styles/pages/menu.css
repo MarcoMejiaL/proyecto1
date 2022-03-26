@@ -6,8 +6,16 @@
     margin-left: 12px;
     margin-right: 12px;
     
+    
+}
+.menu__base--deskto{
+    background-color: var(--base_red);
+    box-shadow: 2px 5px 0px -2px rgba(0,0,0,0.44);
+    
 }
 .menu__base--desktop{
+    
+    
     margin: 0 auto;
     
     
@@ -26,7 +34,8 @@
 }
 .menu__base--desktop li a{
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
+    font-size: 14px;
 }
 .menu__base--desktop li a:hover{
     color: var(--dark);

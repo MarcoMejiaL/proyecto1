@@ -1,7 +1,7 @@
 import React from 'react'
 
-import BlogsNewsContainer from '../containers/BlogsNewsContainer'
-import BlogsPostsContainer from '../containers/BlogsPostsContainer'
+import BlogsNewsContainer from '@containers/BlogsNewsContainer'
+import BlogsPostsContainer from '@containers/BlogsPostsContainer'
 
 const Blog = ()=>{
     return(
