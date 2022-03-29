@@ -6,18 +6,18 @@ const Menu =()=>{
 
         <ul className="menu__base--desktop">
             <li>
-                <a href="">HOME</a>
+                <a href="index">HOME</a>
             </li>
             <li>
-                <a href="">ABOUT ME</a>
-            </li>
-            
-            <li>
-                <a href="">PORTAFOLIO</a>
+                <a href="#about">ABOUT ME</a>
             </li>
             
             <li>
-                <a href="">BLOG</a>
+                <a href="#portafolio">PORTAFOLIO</a>
+            </li>
+            
+            <li>
+                <a href="#blog">BLOG</a>
             </li>
             
         </ul>

@@ -1,9 +1,12 @@
 import React from 'react'
-import foto from '@img/hell.png'
+import { useState, useEffect } from "react";
 
-const PortafolioImg  = ()=>{
+const PortafolioImg  = ({foto})=>{
+    
+
+
     return( 
-    <img src={foto} alt="" loading='lazy' />
+    <img src={foto.download_url} alt={foto.author} loading='lazy' />
     )
 }
 

@@ -6,7 +6,7 @@ import BlogsPostsContainer from '@containers/BlogsPostsContainer'
 const Blog = ()=>{
     return(
 
-    <section className="blogs-main">
+    <section id='blog' className="blogs-main">
 
             <BlogsNewsContainer/>
             <BlogsPostsContainer/>

@@ -1,19 +1,24 @@
-.menu__content{
-    width: auto;
-    
-    padding: 12px;
-    margin-top: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
-    
-    
-}
+
 .menu__base--deskto{
     background-color: var(--base_red);
     box-shadow: 2px 5px 0px -2px rgba(0,0,0,0.44);
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    
+    
+    
+    
+    
+    
+    
+    
+ 
     
 }
 .menu__base--desktop{
+       
     
     
     margin: 0 auto;
@@ -42,7 +47,7 @@
     text-decoration: underline;
 }
 @media (max-width:400px) {
-    .menu__content{
+    .menu__base--deskto{
         display: none;
     }
     

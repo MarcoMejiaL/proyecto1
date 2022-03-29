@@ -1,26 +1,23 @@
-import React, {useState, useEffect} from 'react'
-
-import axios from 'axios'
+import React from 'react'
 import PortafolioImg from '@components/PortafolioImg'
+import UsePortafoImages from '../hooks/UsePortafoImages'
 
 
-const APIurl = "https://picsum.photos/v2/list?page=1&limit=10"
+const APIurl = "https://picsum.photos/v2/list?page=1&limit=15"
 
 const Portafolio = ()=>{
-    const [fotos, setFotos] =useState([]);
-
-    useEffect(async()=>{
-        const response = await axios(APIurl);
-        setFotos(response.data)
-    }, [])
+   const fotos = UsePortafoImages(APIurl)
 
     
     
     return(
-        <section className="portafolio__content--mobile">
+        <section id='portafolio' className="portafolio__content--mobile">
             <div>
                 {fotos.map(foto =>(
-                    <PortafolioImg/>
+                    <PortafolioImg 
+                    foto={foto} 
+                    key={foto.id}
+                    />
                 )
                     
                     
